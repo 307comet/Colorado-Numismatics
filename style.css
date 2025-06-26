@@ -13,6 +13,20 @@ body{
     padding: 0.5em 0;
 }
 
+.ascii-center pre {
+    margin: 0;
+    text-align: center;
+    white-space: pre-wrap;
+    font-family: inherit; /* matches your body font */
+    font-size: 1em;
+    color: inherit;
+}
+
+@media (max-width: 600px) {
+    .ascii-center pre {
+        font-size: 0.7em;
+    }
+
 h1{
     font-size: 4pt;
     color: #a27b5c   
