@@ -1,3 +1,3 @@
 # Colorado-Numismatics
 
-This is a work in progress.
+Work in progress!
