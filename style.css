@@ -4,8 +4,14 @@ body{
     text-align: center;
 }
 
-
-
+.ascii-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    padding: 0.5em 0;
+}
 
 h1{
     font-size: 4pt;
