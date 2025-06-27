@@ -1,5 +1,5 @@
 body{
-    background-color: #556b2f;
+    background-color: #4a3728;
     font-family: "Courier New";
     text-align: center;
     padding: 8%;
@@ -9,12 +9,7 @@ body{
     white-space: pre;
     font-family: monospace;
     font-size: 3pt;
-    color: #b8860b
-}
-
-h1{
-    font-size: 4pt;
-    color: #4a3728   
+    color: #556B2F
 }
 
 #intro{
@@ -28,7 +23,7 @@ h1{
 
 #item_title{
     font-size: 14pt;
-    color: #4a3728
+    color: #B8860B
 }
 
 #item_body{
@@ -37,10 +32,10 @@ h1{
 
 
 #signature{
-    color:#3f4f44
+    color:#556B2F
 }
 
 #href {
-    color: #a27b5c;
+    color: #556B2F;
     text-decoration: none;
 }
