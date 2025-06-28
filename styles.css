@@ -16,14 +16,14 @@ body{
     white-space:pre;
     font-family: monospace;
     font-size: small;
-    color:#8B4720
+    color:#5E6738
 }
 
 .ascii-art_logo{
     white-space:pre;
     font-family: monospace;
     font-size: 1pt;
-    color:#8B4720
+    color:#5E6738
 }
 
 #intro{
@@ -53,10 +53,10 @@ body{
 }
 
 #signature{
-    color:#8B4720
+    color:#5E6738
 }
 
 #href {
-    color: #8B4720;
+    color: #5E6738;
     text-decoration: none;
 }
