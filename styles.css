@@ -12,6 +12,13 @@ body{
     color: #B58500
 }
 
+.ascii-art_separator{
+    white-space:pre;
+    font-family: monospace;
+    font-size: small;
+    color:#B58500
+}
+
 #intro{
     color: #f4e1be
 }
@@ -23,7 +30,7 @@ body{
 
 #item_title{
     font-size: 14pt;
-    color: #8B4720
+    color: #693F23
 }
 
 #item_body{
