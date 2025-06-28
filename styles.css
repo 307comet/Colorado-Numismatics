@@ -16,41 +16,47 @@ body{
     white-space:pre;
     font-family: monospace;
     font-size: small;
-    color:#B58500
+    color:#6a5147
+}
+
+.ascii-art_logo{
+    white-space:pre;
+    font-family: monospace;
+    font-size: 1pt;
+    color:#6a5147
 }
 
 #intro{
-    color: #f4e1be
+    color: #D3BC8D
 }
 
 #disclaimer {
-  color: #A6192E;
+  color: #DA291C;
 }
 
+#item_link{
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 14pt;
+    color: #5E6738;
+}
 
 #item_title{
+    font-family: 'Courier New';
+    font-weight: bold;
     font-size: 14pt;
-    color: #693F23
+    color: #5E6738;
 }
 
 #item_body{
-    color: #f4e1be
+    color: #D3BC8D
 }
 
-
 #signature{
-    color:#B58500
+    color:#6a5147
 }
 
 #href {
-    color: #B58500;
+    color: #6a5147;
     text-decoration: none;
-}
-
-
-.banner {
-    width: 100%
-    height: 12px;
-    color: #B58500;
-
 }
