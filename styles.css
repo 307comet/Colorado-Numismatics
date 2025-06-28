@@ -1,5 +1,5 @@
 body{
-    background-color: #4a3728;
+    background-color: #22372B;
     font-family: "Courier New";
     text-align: center;
     padding: 8%;
@@ -9,11 +9,11 @@ body{
     white-space: pre;
     font-family: monospace;
     font-size: 3pt;
-    color: #556B2F
+    color: #B58500
 }
 
 #intro{
-    color: #f1e9d2
+    color: #f4e1be
 }
 
 #disclaimer {
@@ -23,19 +23,26 @@ body{
 
 #item_title{
     font-size: 14pt;
-    color: #B8860B
+    color: #8B4720
 }
 
 #item_body{
-    color: #f1e9d2
+    color: #f4e1be
 }
 
 
 #signature{
-    color:#556B2F
+    color:#f4e1be
 }
 
 #href {
-    color: #556B2F;
+    color: #f4e1be;
     text-decoration: none;
 }
+
+
+brown color: 63361fff
+gold color: f4c776ff
+green color: 00674cff
+
+
