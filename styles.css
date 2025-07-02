@@ -49,8 +49,13 @@ body{
 }
 
 #item_body{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 400px;
     color: #D3BC8D
-}
+     }
 
 #signature{
     color:#5E6738
