@@ -30,8 +30,21 @@ body{
     color: #D3BC8D
 }
 
+#location{
+    white-space: pre;
+    font-family: 'Courier New';
+    font-weight: bold;
+    font-size: 14pt;
+    color: #B58500;
+}
+
 #disclaimer {
-  color: #DA291C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-justify: inter-word;
+    width: 300px;
+    color: #DA291C;
 }
 
 #item_link{
@@ -53,6 +66,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
+    text-justify: inter-word;
+    width: 300px;
+    color: #D3BC8D
+}
+
+#guide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-justify: inter-word;
     width: 300px;
     color: #D3BC8D
