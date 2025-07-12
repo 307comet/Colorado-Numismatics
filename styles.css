@@ -42,9 +42,10 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-align: justify;
     text-justify: inter-word;
     width: 300px;
-    color: #DA291C;
+    color: #D3BC8D
 }
 
 #item_link{
@@ -78,7 +79,7 @@ body{
     text-align: justify;
     text-justify: inter-word;
     width: 300px;
-    color: #804f2e
+    color: #5E6738
 }
 
 #signature{
@@ -88,4 +89,33 @@ body{
 #href {
     color: #5E6738;
     text-decoration: none;
+}
+
+
+
+
+.guide-popup {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: #22372B;
+    color: #5E6738;
+    top: 25%;
+    border: 2px solid #5E6738;
+    border-radius: 16px;
+    padding: 24px 32px 16px 32px;
+    z-index: 1000;
+    max-width: 400px;
+    box-shadow: 0 16px 16px rgba(24, 24, 24, 90%);
+}
+
+.guide-popup .close-btn {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: #5E6738;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
 }

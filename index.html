@@ -34,14 +34,14 @@
         <p id="intro">a simple HTML-built digital museum</p>
         <p id="location">Lobby</p>
 </header>
-<main>
-  <div class="ascii-art_separator">
---><--><--><--><--><--><--><--><--
-  </div>
 
-  <p id="guide">Welcome to the Colorado Numismatics museum! I will be your Guide.</p>
-  <p id="guide">Click on the links below to explore the museum. It was designed by the Curator to imitate a text-based game.</p>
-  
+    <div id="guide-popup" class="guide-popup">
+      <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
+      <p id="guide">Welcome to the Colorado Numismatics museum! I will be your Guide.</p>
+      <p id="guide">Click on the links below to explore the museum. It was designed by the Curator to imitate a text-based game.</p>
+    </div>
+
+<main>  
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
@@ -65,22 +65,13 @@
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
-  </div>
+
     <a id="item_link" href="pages/shop.html">&gt;&gt;&gt; Go to the Gift Shop &gt;&gt;&gt;</a>
-  </div>
 
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
 
-  <p id="guide">The Curator created this website to display his collection and spread knowledge. Some believe he created the museum to create a front, others think it was to increase the value of his collection.</p>
-  <p id="guide">No one knows who the Curator is. Even I, have never meet him before. I don’t believe any of the rumors about the Curator are true.</p>
-
-
-  <div class="ascii-art_separator">
---><--><--><--><--><--><--><--><--
-  </div>
-  
 </main>
 
     <footer>
