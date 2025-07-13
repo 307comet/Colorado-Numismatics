@@ -6,6 +6,7 @@
     <title>Colorado Numismatics</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg" href="assets/favicon.svg">
+    <script src="main.js" defer></script>
 </head>
 <body>
 
@@ -35,38 +36,38 @@
         <p id="location">Lobby</p>
 </header>
 
-    <div id="guide-popup" class="guide-popup">
-      <span class="close-btn" onclick="this.parentElement.style.display='none';">&times;</span>
-      <p id="guide">Welcome to the Colorado Numismatics museum! I will be your Guide.</p>
-      <p id="guide">Click on the links below to explore the museum. It was designed by the Curator to imitate a text-based game.</p>
-    </div>
+<button type="button" class="collapsible">&darr; Read a message from the Guide &darr;</button>
+<div class="content">
+  <p id="guide">&emsp;"Welcome to the Colorado Numismatics museum! I am your Guide."</p>
+  <p id="guide">&emsp;"Click on the links below to explore the museum. It was designed by the Curator to imitate a text-based game."</p>
+</div>
 
 <main>  
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
-    <a id="item_link" href="pages/gallery.html">&gt;&gt;&gt; Enter the Gallery &gt;&gt;&gt;</a>
+    <a id="item_link" href="pages/gallery.html">&gt; Enter the Gallery &gt;</a>
   </div>
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
 
   </div>
-    <a id="item_link" href="pages/vault.html">&gt;&gt;&gt; Enter the Vault &gt;&gt;&gt;</a>
+    <a id="item_link" href="pages/vault.html">&gt; Enter the Vault &gt;</a>
   </div>
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
 
   </div>
-    <a id="item_link" href="pages/office.html">&gt;&gt;&gt; Enter the Curator's Office &gt;&gt;&gt;</a>
+    <a id="item_link" href="pages/office.html">&gt; Enter the Curator's Office &gt;</a>
   </div>
 
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
 
-    <a id="item_link" href="pages/shop.html">&gt;&gt;&gt; Go to the Gift Shop &gt;&gt;&gt;</a>
+    <a id="item_link" href="pages/shop.html">&gt; Go to the Gift Shop &gt;</a>
 
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
@@ -75,7 +76,7 @@
 </main>
 
     <footer>
-      <img src="/assets/signature.svg" alt="Signature" width="75px">
+      <img src="assets/signature.svg" alt="Signature" width="75px">
     </footer>
 
 </body>

@@ -91,31 +91,26 @@ body{
     text-decoration: none;
 }
 
-
-
-
-.guide-popup {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    background: #22372B;
-    color: #5E6738;
-    top: 25%;
-    border: 2px solid #5E6738;
-    border-radius: 16px;
-    padding: 24px 32px 16px 32px;
-    z-index: 1000;
-    max-width: 400px;
-    box-shadow: 0 16px 16px rgba(24, 24, 24, 90%);
+.collapsible {
+  background-color: #22372B;
+  color: #5E6738;
+  cursor: pointer;
+  padding: 18px;
+  width: 350px;
+  border: none;
+  font-family: 'Courier New';
+  font-size: 15px;
+  text-align: center;
 }
 
-.guide-popup .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-    color: #5E6738;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
+.active, .collapsible:hover {
+  background-color: #22372B;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #22372B;
+  font-size: 15px;
 }
