@@ -1,5 +1,5 @@
 body{
-    background-color: #22372B;
+    background-color: #333333;
     font-family: "Courier New";
     text-align: center;
     padding: 5%;
@@ -16,7 +16,7 @@ body{
     white-space:pre;
     font-family: monospace;
     font-size: small;
-    color:#5E6738
+    color:#B58500
 }
 
 .ascii-art_logo{
@@ -92,7 +92,7 @@ body{
 }
 
 .collapsible {
-  background-color: #22372B;
+  background-color: #333333;
   color: #5E6738;
   cursor: pointer;
   padding: 18px;
@@ -104,13 +104,26 @@ body{
 }
 
 .active, .collapsible:hover {
-  background-color: #22372B;
+  background-color: #333333;
 }
 
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #22372B;
+  background-color: #333333;
   font-size: 15px;
+}
+
+.button {
+  background-color: #333333;
+  border: 3px solid #B58500;
+  color: #B58500;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
