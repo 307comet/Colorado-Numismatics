@@ -12,6 +12,13 @@ body{
     color: #B58500
 }
 
+.ascii-art_footer {    
+    white-space: pre;
+    font-family: monospace;
+    font-size: 1.5pt;
+    color: #B58500
+}
+
 .ascii-art_separator{
     white-space:pre;
     font-family: monospace;
@@ -79,11 +86,7 @@ body{
     text-align: justify;
     text-justify: inter-word;
     width: 300px;
-    color: #5E6738
-}
-
-#signature{
-    color:#5E6738
+    color: #D3BC8D
 }
 
 #href {
@@ -93,7 +96,7 @@ body{
 
 .collapsible {
   background-color: #333333;
-  color: #5E6738;
+  color: #D3BC8D;
   cursor: pointer;
   padding: 18px;
   width: 350px;
@@ -117,13 +120,29 @@ body{
 
 .button {
   background-color: #333333;
-  border: 3px solid #B58500;
+  border: 2px solid #B58500;
   color: #B58500;
+  width: 300px;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 15px;
+  margin: 4px 2px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #B58500;
+  border: 2px solid #B58500;
+  color: #333333;
+  width: 300px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
 }
