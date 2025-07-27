@@ -12,3 +12,18 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 } 
+
+function checkPswd() {
+  var confirmPassword = "42069"; // The correct password
+  var pswdInput = document.getElementById("pswd");
+  if (!pswdInput) {
+    alert("Combination input not found.");
+    return;
+  }
+  var password = pswdInput.value;
+if (password === confirmPassword) {
+    window.location.href = "vaultopen.html";
+  } else {
+    alert("Combinations do not match.");
+  }
+}

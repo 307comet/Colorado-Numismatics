@@ -1,75 +1,45 @@
-i<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorado Numismatics</title>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="icon" type="image/svg" href="../assets/favicon.svg">
-    <script src="../main.js" defer></script>
-
+    <link rel="stylesheet" href="../../../styles.css">
+    <link rel="icon" type="image/svg" href="../../../assets/favicon.svg">
+    <script src="../../../main.js" defer></script>
 </head>
-<body>
 
-        <header>
-        <div class="ascii-art_title">
-   █████████           ████                                   █████         
-  ███░░░░░███         ░░███                                  ░░███          
- ███     ░░░   ██████  ░███   ██████  ████████   ██████    ███████   ██████ 
-░███          ███░░███ ░███  ███░░███░░███░░███ ░░░░░███  ███░░███  ███░░███
-░███         ░███ ░███ ░███ ░███ ░███ ░███ ░░░   ███████ ░███ ░███ ░███ ░███
-░░███     ███░███ ░███ ░███ ░███ ░███ ░███      ███░░███ ░███ ░███ ░███ ░███
- ░░█████████ ░░██████  █████░░██████  █████    ░░████████░░████████░░██████ 
-  ░░░░░░░░░   ░░░░░░  ░░░░░  ░░░░░░  ░░░░░      ░░░░░░░░  ░░░░░░░░  ░░░░░░  
-       </div>
-
-<div class="ascii-art_title">
- ██████   █████                             ███                                     █████     ███                  
-░░██████ ░░███                             ░░░                                     ░░███     ░░░                   
- ░███░███ ░███  █████ ████ █████████████   ████   █████  █████████████    ██████   ███████   ████   ██████   █████ 
- ░███░░███░███ ░░███ ░███ ░░███░░███░░███ ░░███  ███░░  ░░███░░███░░███  ░░░░░███ ░░░███░   ░░███  ███░░███ ███░░  
- ░███ ░░██████  ░███ ░███  ░███ ░███ ░███  ░███ ░░█████  ░███ ░███ ░███   ███████   ░███     ░███ ░███ ░░░ ░░█████ 
- ░███  ░░█████  ░███ ░███  ░███ ░███ ░███  ░███  ░░░░███ ░███ ░███ ░███  ███░░███   ░███ ███ ░███ ░███  ███ ░░░░███
- █████  ░░█████ ░░████████ █████░███ █████ █████ ██████  █████░███ █████░░████████  ░░█████  █████░░██████  ██████ 
-░░░░░    ░░░░░   ░░░░░░░░ ░░░░░ ░░░ ░░░░░ ░░░░░ ░░░░░░  ░░░░░ ░░░ ░░░░░  ░░░░░░░░    ░░░░░  ░░░░░  ░░░░░░  ░░░░░░  
-       </div>
-        <p id="intro">a simple HTML-built digital museum</p>
-        <p id="location">Vault</p>
+<header>
+  <p id="location">The Vault is Locked</p>
 </header>
-<main>
+      
+  <div class="ascii-art_separator">
+--><--><--><--><--><--><--><--><--
+  </div>
 
-<button type="button" class="collapsible">&darr; A message from the Guide &darr;</button>
-<div class="content">
-  <p id="guide">&emsp;"The Vault is where the Curator keeps his collection before it goes to The Gallery."</p>
-  <p id="guide">&emsp;"Also, here you can find objects unrelated to the study of Colorado Numismatics, but of special importance to the Curator."</p>
-  <p id="guide">&emsp;"Click on the object's title to view it larger."</p>
-</div>
+  <p id="item_body">Please enter the Vault Combination</p>
+
+  <div>
+    <form onsubmit="checkPswd(); return false;">
+      <input type="text" id="pswd">
+      <input type="submit" value="Open" />
+    </form>
+  </div>
 
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
 
-    <a id="item_link" href="../pages/monnier.html">The Monnier Metallurgical Company</a>    
-  
-  <br>
-
-    <img src="../assets/monnier_medal.svg" alt="Monnier Metallurgical Company Medal" width="200">
-
-    <div class="ascii-art_separator">
---><--><--><--><--><--><--><--><--
-    </div>
-
+  <div>
+  <a href="floor0.html" class="button button1">Leave the Vault</a>
   </div>
-    <a id="item_link" href="../index.html">&lt; Go Back to the Lobby &lt;</a>
-  </div>
+
   <div class="ascii-art_separator">
 --><--><--><--><--><--><--><--><--
   </div>
-
-    </main>
 
 <footer>
-<div class="ascii-art_footer">
+  <div class="ascii-art_footer">
    █████████           ████                                   █████             ██████   █████                             ███                                     █████     ███                  
   ███░░░░░███         ░░███                                  ░░███             ░░██████ ░░███                             ░░░                                     ░░███     ░░░                   
  ███     ░░░   ██████  ░███   ██████  ████████   ██████    ███████   ██████     ░███░███ ░███  █████ ████ █████████████   ████   █████  █████████████    ██████   ███████   ████   ██████   █████ 
@@ -78,8 +48,7 @@ i<!DOCTYPE html>
 ░░███     ███░███ ░███ ░███ ░███ ░███ ░███      ███░░███ ░███ ░███ ░███ ░███    ░███  ░░█████  ░███ ░███  ░███ ░███ ░███  ░███  ░░░░███ ░███ ░███ ░███  ███░░███   ░███ ███ ░███ ░███  ███ ░░░░███
  ░░█████████ ░░██████  █████░░██████  █████    ░░████████░░████████░░██████     █████  ░░█████ ░░████████ █████░███ █████ █████ ██████  █████░███ █████░░████████  ░░█████  █████░░██████  ██████ 
   ░░░░░░░░░   ░░░░░░  ░░░░░  ░░░░░░  ░░░░░      ░░░░░░░░  ░░░░░░░░  ░░░░░░     ░░░░░    ░░░░░   ░░░░░░░░ ░░░░░ ░░░ ░░░░░ ░░░░░ ░░░░░░  ░░░░░ ░░░ ░░░░░  ░░░░░░░░    ░░░░░  ░░░░░  ░░░░░░  ░░░░░░  
-</div>
+  </div>
 </footer>
 
-</body>
 </html>
