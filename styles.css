@@ -2,7 +2,7 @@ body{
     background-color: #333333;
     font-family: "Courier New";
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 
 .ascii-art_title {    
@@ -128,7 +128,7 @@ body{
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 2px;
+  margin: 8px;
   transition-duration: 0.7s;
   cursor: pointer;
 }
@@ -143,6 +143,6 @@ body{
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 4px 2px;
+  margin: 8px;
   cursor: pointer;
 }
