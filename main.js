@@ -1,7 +1,19 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
+function typeWriterEffect(element, text, speed = 60) {
+  element.innerHTML = "";
+  let chars = text.split("");
+  let i = 0;
+  function typeChar() {
+    if (i < chars.length) {
+      element.innerHTML += chars[i];
+      i++;
+      setTimeout(typeChar, speed);
+    }
+  }
+  typeChar();
+}
 
-for (i = 0; i < coll.length; i++) {
+var coll = document.getElementsByClassName("collapsible");
+for (let i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
@@ -9,21 +21,43 @@ for (i = 0; i < coll.length; i++) {
       content.style.display = "none";
     } else {
       content.style.display = "block";
+      // Use typeWriterEffect on the content
+      typeWriterEffect(content, content.getAttribute("data-guide") || content.textContent);
+      // Justify left
+      content.style.textAlign = "left";
+      // Set max width to 300px
+      content.style.maxWidth = "300px";
     }
   });
-} 
+}
 
-function checkPswd() {
-  var confirmPassword = "42069"; // The correct password
-  var pswdInput = document.getElementById("pswd");
-  if (!pswdInput) {
-    alert("Combination input not found.");
+function checkCombination() {
+  // Define the correct combination
+  var combination = ["L81", "R18", "L76"];
+  // Get the input elements
+  var pswd0Input = document.getElementById("pswd0");
+  var pswd1Input = document.getElementById("pswd1");
+  var pswd2Input = document.getElementById("pswd2");
+
+  // Check if all inputs exist
+  if (!pswd0Input || !pswd1Input || !pswd2Input) {
+    alert("That combination did not work.");
     return;
   }
-  var password = pswdInput.value;
-if (password === confirmPassword) {
-    window.location.href = "vaultopen.html";
+
+  // Get the values
+  var password0 = pswd0Input.value;
+  var password1 = pswd1Input.value;
+  var password2 = pswd2Input.value;
+
+  // Check if all passwords match the combination
+  if (
+    password0 === combination[0] &&
+    password1 === combination[1] &&
+    password2 === combination[2]
+  ) {
+    window.location.href = "vault_open.html";
   } else {
-    alert("Combinations do not match.");
+    alert("That combination did not work.");
   }
 }
