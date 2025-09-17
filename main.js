@@ -1,5 +1,11 @@
 function typeWriterEffect(element, text, speed = 60) {
   element.innerHTML = "";
+  element.style.display = "block";
+  element.style.marginLeft = "auto";
+  element.style.marginRight = "auto";
+  element.style.width = "300px";
+  element.style.textAlign = "left";
+  element.style.color = "#D3BC8D";
   let chars = text.split("");
   let i = 0;
   function typeChar() {
@@ -33,7 +39,7 @@ for (let i = 0; i < coll.length; i++) {
 
 function checkCombination() {
   // Define the correct combination
-  var combination = ["L81", "R18", "L76"];
+  var combination = ["81", "18", "76"];
   // Get the input elements
   var pswd0Input = document.getElementById("pswd0");
   var pswd1Input = document.getElementById("pswd1");
